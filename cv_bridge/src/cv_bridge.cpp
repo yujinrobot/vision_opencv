@@ -40,7 +40,6 @@
 #include <boost/make_shared.hpp>
 #include <boost/regex.hpp>
 
-#include <opencv2/imgcodecs.hpp>
 #include <opencv2/imgproc/imgproc.hpp>
 
 #include <sensor_msgs/image_encodings.h>
