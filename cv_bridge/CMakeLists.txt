@@ -13,7 +13,7 @@ if(NOT ANDROID)
 else()
 find_package(Boost REQUIRED)
 endif()
-find_package(OpenCV REQUIRED)
+find_package(OpenCV 2 REQUIRED)
 
 catkin_package(
   INCLUDE_DIRS include
