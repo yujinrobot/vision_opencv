@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: cv_bridge
+Description: Description of cv_bridge
+Version: 1.12.7
+Cflags: -I/usr/local/include -I/opt/yujin/amd64/kinetic-devel/include -I/opt/yujin/amd64/kinetic-devel/include/opencv
+Libs: -L/usr/local/lib -lcv_bridge /opt/yujin/amd64/kinetic-devel/lib/libopencv_core.so.3.3.1 /opt/yujin/amd64/kinetic-devel/lib/libopencv_imgproc.so.3.3.1 /opt/yujin/amd64/kinetic-devel/lib/libopencv_imgcodecs.so.3.3.1
+Requires: rosconsole sensor_msgs

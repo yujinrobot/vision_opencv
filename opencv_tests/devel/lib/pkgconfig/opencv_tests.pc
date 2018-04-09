@@ -1,0 +1,8 @@
+prefix=/opt/groot/new_libs/vision_opencv/vision_opencv-kinetic/opencv_tests/devel
+
+Name: opencv_tests
+Description: Description of opencv_tests
+Version: 1.12.7
+Cflags: 
+Libs: -L/opt/groot/new_libs/vision_opencv/vision_opencv-kinetic/opencv_tests/devel/lib 
+Requires: 
